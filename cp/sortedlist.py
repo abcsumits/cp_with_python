@@ -1,5 +1,7 @@
+#You can also use insort instead of this,sites always except it after being n^2(No ones remember to put test case for it:) ) 
 from bisect import bisect_left
 from bisect import bisect_right
+#Remember to check line number 34.
 class FenwickTree:
     def __init__(self, x):
         bit = self.bit = list(x)
