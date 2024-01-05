@@ -15,6 +15,7 @@ def inverse_modulo(x,mod):
     #fermat little theorem only valid for prime ,else use euler totient function
     return power(x,mod-2,mod)
 def nCr(n,r,mod):
+    #you can precompute factorial for optimizing it
     if n<r:
         return 0
     if r==0:
