@@ -1,6 +1,6 @@
 class TreeAncestor:
 
-    def __init__(self, n, gp,root):#gp means graph matrix, n number of nodes,root node  
+    def __init__(self, n, gp,root):#gp means graph matrix, n number of nodes,root node ,nodes ranges from 0 to n-1 
         bit=1
         t=n
         while t:
