@@ -1,4 +1,4 @@
-#write this on top delete(discard) and insert(add) and pop for deleting index
+#write this on top delete(discard) and insert(add) and pop for deleting index at index
 from __future__ import print_function
 from collections import Counter
 from sys import hexversion
