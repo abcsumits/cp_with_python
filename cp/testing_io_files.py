@@ -16,7 +16,7 @@ if flag:
         def __init__(self):
             self.fi=open("input.txt","r")
         def inu(self):
-            return self.fi.readline()[:-1]
+            return self.fi.readline()
     fy=out()
     print=fy.inu
     fx=inp()
