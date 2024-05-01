@@ -4,7 +4,7 @@ class TreeAncestor:
         bit=1
         t=n
         while t:
-            t//=2
+            t>>=2
             bit+=1
         bit_ancestor=[] 
         for i in range(n):
