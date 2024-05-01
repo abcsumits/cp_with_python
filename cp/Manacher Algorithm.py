@@ -20,4 +20,12 @@ def p_arr(s):
         if i+t-1>r:
             r=i+t-1
             l=i-t+1
-    return p        
+    return p    
+#if string is palindrome from l to r function returns false    
+def chk_palindrome(l,r,p):
+    if (r-l+1)%2==1:
+        i=(r+l)//2
+        return (r-l+1)!=p[2*i+1]-1 
+    else:
+        i=(r+l)//2
+        return (r-l+1)!=p[2*i+2]-1 
